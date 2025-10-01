@@ -21,6 +21,6 @@ jobs:
         run: msbuild ./PhysicsGame.sln /p:Configuration=Debug /p:Platform=win32
 
       - name: Create artifact Directory
-        run:  mkdir /artifact
+        run:  mkdir artifact
               mkdir artifact/PhysicsGame
         
